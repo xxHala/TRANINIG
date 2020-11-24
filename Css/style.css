@@ -131,7 +131,7 @@ button:hover {
 
 
 
-.why-us{
+.why-easy{
 	width: 100%;
     background-color: #efefef;
     position: absolute;
@@ -139,7 +139,7 @@ button:hover {
     right: 0;
 }
 
-.why-us h4{
+.why-easy h4{
 	color: #333333	;
 	font-size: 33px;
 	margin-bottom: 15px;
@@ -147,14 +147,14 @@ button:hover {
     margin-top: 100px;
 }
 
-.why-us p{
+.why-easy p{
 	color: #9E9E9E;
 	font-size: 20px;
 	margin-left: 9%;
 
 }
 
-.why-us-rs{
+.why-esasy-{
 	margin-top: 60px;
 	margin-bottom: 100px;
     display: flex;
@@ -163,19 +163,17 @@ button:hover {
 	margin-left: 8%;
     margin-right: 6%;
 }
-#why-us-reasons-four{
-	margin-right: 0;
-}
-#why-us-im{
+
+#why-esasy-im{
     margin-bottom: 30px;
 }
-#why-us-h{
+#why-esasy-h{
 	color: #403939;
 	margin-top:30px;
     margin-bottom: 20px;
     font-size: 20px;
 }
-#why-us-p {
+#why-esasy-p {
 	margin-left: 0;
     font-size: 18px;
 }
