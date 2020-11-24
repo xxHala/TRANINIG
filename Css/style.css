@@ -1,6 +1,10 @@
+
 *{
     padding: 0;
-    margin: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
 }
 
 body{
@@ -26,8 +30,8 @@ body{
 	list-style-type: none;
 	margin: 0;
 	display: inline-flex;	
-
 	padding: 0;
+	cursor: default;
 	overflow: hidden;
   }
   li a {
@@ -37,9 +41,15 @@ body{
 	padding: 14px 16px;
 	text-decoration: none;
   }
+  .nav-items a:hover
+  { color: hsl(233, 26%, 24%);
+    transition-duration: color 0.5s border 0.4s;
+	border-bottom: 6px solid hsl(192, 70%, 51%);
+}
 
 #request-button{
 	display: block;
+	cursor: pointer;
   border-radius: 50px;
   padding: 15px 20px;
   border: transparent;
@@ -50,7 +60,11 @@ body{
   color: hsl(0, 0%, 100%);
   text-transform: capitalize;
 }
-
+button:hover {
+	opacity: 0.7;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
 .first-part{
 	direction: rtl;
 	background-color: rgb(249, 249, 249);
@@ -82,31 +96,89 @@ body{
 .first-head-text h1{
 	font-size: 50px;
     color: #0f2c4a;
-	margin-bottom: 28px;
-	font-family: 'Public Sans', sans-serif;
+	margin-bottom: 30px;
 
 }
 
 .first-text-p {
+	margin-top: 18px;
 	color: #b9b9b9;
-	font-family: 'Public Sans', sans-serif;
 	font-size: 21px;
 	line-height: 1.4;
+	margin-bottom: 25px;
 
 }
 
 .first-text-button{
-background: linear-gradient(to right,
-	hsl(136, 65%, 51%),
-	hsl(192, 70%, 51%));
-border: transparent;
-  border-radius: 50px;
-padding: 15px 20px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 18px;
-color: hsl(0, 0%, 100%);
+	display: inline-block;
+	cursor: pointer;
+  border-radius: 55px;
+  padding: 15px 50px;
+  border: transparent;
+  background: linear-gradient(to right,
+      hsl(136, 65%, 51%),
+      hsl(192, 70%, 51%));
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
   text-transform: capitalize;
-margin: 0 auto;
-margin-top: 33px;}
+}
+.first-text-button:hover{
+	opacity: 0.7;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+
+
+
+.why-us{
+	width: 100%;
+    background-color: #efefef;
+    position: absolute;
+    top: 764px;
+    right: 0;
+}
+
+.why-us h4{
+	color: #333333	;
+	font-size: 33px;
+	margin-bottom: 15px;
+	margin-left: 9%;
+    margin-top: 100px;
+}
+
+.why-us p{
+	color: #9E9E9E;
+	font-size: 20px;
+	margin-left: 9%;
+
+}
+
+.why-us-rs{
+	margin-top: 60px;
+	margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+	text-align: left;
+	margin-left: 8%;
+    margin-right: 6%;
+}
+#why-us-reasons-four{
+	margin-right: 0;
+}
+#why-us-im{
+    margin-bottom: 30px;
+}
+#why-us-h{
+	color: #403939;
+	margin-top:30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#why-us-p {
+	margin-left: 0;
+    font-size: 18px;
+}
+
+
+
