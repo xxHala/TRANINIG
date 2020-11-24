@@ -74,12 +74,12 @@ button:hover {
 
 .first-img{
 	z-index: 100;
-    position: inherit;
+	position: inherit;
 	display: inline-block;
 	width: 60%;
 	height: 781px;
-	background-image:url(./images/image-mockups.png),
-				  	url(./images/bg-intro-desktop.svg);
+	background-image:  url(./images/image-mockups.png),
+					  url(./images/bg-intro-desktop.svg);		  
 	background-position: 221px -120px,
 						 47px -258px;
 	background-repeat: no-repeat;
