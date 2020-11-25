@@ -180,3 +180,69 @@ button:hover {
 
 
 
+.latest-part{
+	background-color:rgb(249, 249, 249) ;
+	width: 100%;
+	height: auto;
+    position: absolute;
+	left: 0;
+    margin-top: 470px;
+    margin-bottom: -270px;;
+}
+
+.latest-part h1{
+	color: #403939;
+	margin-top: 100px;
+	margin-bottom:60px;
+	margin-left: 8%;
+
+}
+
+.items{
+	margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	margin-right: 8%;
+	margin-left: 8%;
+
+
+}
+div[class*='items-']{
+	text-align: center;
+	margin-right: 35px;
+	margin-bottom: 80px;
+
+}
+div[class*='items-'] img{
+	width: 100%;
+	border-radius: 10px;
+	height:250px;
+
+}
+.Text{
+	background-color: white;
+	color: #9E9E9E;
+    text-align: start;
+	width: 100%;
+	box-sizing: border-box;
+    padding: 22px;
+}
+
+
+.Text h4{
+	color: grey;
+    margin-bottom: 12px;
+    font-size: 10px;
+}
+.Text h3{
+	color: #32302d;
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+.Text p{
+	color: #9E9E9E;
+    margin-left: 0;
+	font-size: 18px;
+
+}
