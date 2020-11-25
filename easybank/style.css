@@ -475,20 +475,41 @@ footer button {
 }
 
 @media only screen and (max-width: 660px){
-
 	.footer{
-		padding-top: 3px;
+		width: 100%;
+		padding-top: 20px;
 		position: static;
 		flex-direction: column;
 		justify-content: center;
+		align-items:center;
 	}	
-	div[class*="column-"]{
-		margin-top: 0;
-		margin-right: 0;
-		margin-left: 0;
+	.t{
+		margin-top:40px;
+		flex-direction: column;
+		margin-left:50px;
 	}
-	.copyright{
-		margin-left: 0;
+	#eLinks{
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+margin-top:8px;
+line-height:40px;
+font-weight:50px;
+	}
+	#Links
+	{	margin-top: 3px;
+		flex-direction: column;
+		margin-left:20px;
+		height:30px;
+	}
+#B{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+}
+	#copyright{
+		margin-left: 20px;
     	margin-right: 0;
 
 	}
