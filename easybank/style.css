@@ -229,6 +229,10 @@ div[class*='items-'] img{
     padding: 22px;
 }
 
+.Text h3:hover {
+	cursor: pointer;
+	color: hsl(192, 70%, 51%);
+}
 
 .Text h4{
 	color: grey;
@@ -246,3 +250,70 @@ div[class*='items-'] img{
 	font-size: 18px;
 
 }
+footer {
+    background-color: hsl(233, 26%, 24%);
+    color: hsl(0, 0%, 100%);
+    padding: 40px 35px 35px 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.t {
+	box-sizing: border-box;
+	margin-left:35px;
+	background-color: antiquewhite;
+	margin-left: 180px;
+
+}
+footer a {
+    text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+    font-weight: 300;
+	font-size: 18px;
+	
+}
+
+#Links {
+	padding: 40px 45px 32px 40px;
+	margin-left: 150px;
+
+}
+
+.Link {
+	padding: 10px;
+	
+}
+
+#eLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 19em;
+}
+
+footer a:hover {
+
+    color: hsl(192, 70%, 51%);
+} 
+
+footer button {
+	margin-bottom: 20px;
+	margin-left: -190px;
+	cursor: pointer;
+  border-radius: 70px;
+  padding: 15px 50px;
+  border: transparent;
+  background: linear-gradient(to right,
+      hsl(136, 65%, 51%),
+      hsl(192, 70%, 51%));
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  text-transform: capitalize;
+}
+
+#copyright {
+	margin-left: -190px;
+    font-size: 14px;
+    color: hsl(233, 8%, 62%);
+}
+
+
+
